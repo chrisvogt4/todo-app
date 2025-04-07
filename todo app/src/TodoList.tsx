@@ -37,7 +37,7 @@ export const TodoList: React.FC = () => {
 
     return (
     <div className="main-container">
-        <h1 className="todo-list">Todo List 2024</h1>
+        <h1 className="todo-list">Todo List 2025</h1>
         <div className="div">
         <input className="field" maxLength={30} value={input.charAt(0).toUpperCase() + input.slice(1)} type="text" placeholder="Add to-do item" onChange={handleTodo}/>
         <FontAwesomeIcon onClick={addTodo} icon={faPlus} className="icon-1"></FontAwesomeIcon>
@@ -58,7 +58,6 @@ export const TodoList: React.FC = () => {
         </div>
     );
 }
-
 
 
 
